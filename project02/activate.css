@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.backgroundcolor {
+    background-color: #89C2BC;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 26px;
+}
+.type {
+    text-transform: none;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.margins {
+    -webkit-box-shadow: inset 0px 0px;
+    box-shadow: inset 0px 0px;
+    border-width: 0px;
+}
+.underline {
+    opacity: 1;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    vertical-align: baseline;
+    visibility: visible;
+}
