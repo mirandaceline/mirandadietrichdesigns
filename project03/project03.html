@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Project 03</title>
+<style type="text/css">
+* {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    background-color: hsla(0,0%,90%,1.00);
+}
+.Wrapper {
+    width: 1024px;
+    background-color: hsla(0,0%,94%,1.00);
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    height: 450px;
+    background-color: hsla(0,0%,0%,1.00);
+}
+h1 {
+    font-size: 5em;
+    color: hsla(0,0%,90%,1.00);
+    font-weight: 600;
+    text-align: center;
+    padding-top: 120px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.Logo2020 {
+    font-weight: 200;
+    font-size: 60px;
+    color: hsla(0,0%,60%,1.00);
+    letter-spacing: 6px;
+}
+.PdfLink {
+    background-color: hsla(0,0%,90%,1.00);
+    height: 50px;
+    text-align: center;
+}
+.PdfLink a {
+    color: hsla(36,100%,49%,1.00);
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding-top: 14px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+.PdfLink a:hover  {
+    color: hsla(0,0%,90%,1.00);
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding-top: 14px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    background-color: hsla(36,100%,49%,1.00);
+}
+header h2 {
+    text-align: center;
+    font-weight: 200;
+    text-transform: capitalize;
+    padding-top: 13px;
+    letter-spacing: 4px;
+    color: hsla(0,0%,90%,1.00);
+}
+.BlackSection {
+    background-color: hsla(0,0%,20%,1.00);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 41px;
+    padding-left: 20px;
+    clear: both;
+    height: 250px;
+}
+h3 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    color: hsla(0,0%,60%,1.00);
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    letter-spacing: 0.6px;
+    position: relative;
+    margin-top: 29px;
+    margin-bottom: 30px;
+}
+.concept.inforblock h3 {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-transform: capitalize;
+}
+.concept p {
+    line-height: 1.4em;
+    color: hsla(0,2%,37%,1.00);
+    column-count: 1;
+    margin-right: 0px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    max-width: 559px;
+    margin-bottom: 20px;
+}
+footer {
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.8em;
+    color: hsla(0,0%,60%,1.00);
+    line-height: 1.4em;
+}
+.concept {
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+	
+	h3:after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #E6E6E6;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    padding-top: 0px;
+    margin-left: -29px;
+}
+.BriefList {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: thin solid hsla(0,0%,60%,1.00);
+    padding-bottom: 15px;
+    padding-top: 0px;
+    float: right;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.BriefList h4 {
+    padding-bottom: 10px;
+    padding-top: 0px;
+    color: hsla(0,0%,90%,1.00);
+    float: none;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.BriefList p {
+    color: hsla(0,0%,80%,1.00);
+    line-height: 1.4em;
+    text-transform: none;
+    padding-bottom: 25px;
+    font-weight: 400;
+}
+.left50percent {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 40px;
+}
+.right50percent {
+    width: 40%;
+    float: left;
+}
+.inforblock {
+    min-height: 300px;
+    border-bottom: thin solid hsla(0,0%,60%,1.00);
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.ListNumber {
+    color: hsla(0,0%,20%,1.00);
+    font-weight: 800;
+    font-size: 24px;
+    display: block;
+    background-color: hsla(36,18%,89%,1.00);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    float: none;
+    clear: right;
+    margin-bottom: 14px;
+}
+.concept h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+p {
+    color: hsla(0,2%,37%,1.00);
+    font-weight: 200;
+    line-height: 1.4em;
+}
+.Logo20  {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.Logo20.inforblock img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+</style>
+</head>
+	
+<body>
+	<div class="Wrapper">
+	  <header><h1>#ArtTogetherNow</h1>
+		  <h2>Project 03 Design Process</h2>
+		  <h2>By Miranda Dietrich&nbsp;</h2>
+</header>
+		<main>
+		  <nav style="margin: 0px"><a href="../index.html">Home</a> <a href="../project01/project01.html">Project 01</a> <a href="../project02/project02.html">Project 02</a> <a>Project 03</a> <a>Project 04</a></nav>
+		  <div class="BlackSection">
+			<h3>Design Brief</h3>
+			<div class="design"	
+			  <div style="text-align: center;">
+				<p1>The goal is put together an interactive and informative design about the current pandemic sweeping the world. The design is light hearted while also being filled with helpful information covering Covid-19. The target audience is everyone and the anxieties we are dealing with during this troubling time. The graphics are not only to shed some light on the coronavirus but also what we can do to fill the time while in quarantine. </p1>
+				</div>
+			</div>
+			</div>
+				<div class="left50percent"> </div>
+		<div class="concept inforblock">
+		  <h2>About this event</h2>
+		  <p>A Special Project During the pandemics
+: Dean Dale Merrill is hosting a contest for College of the Arts students. Feed your need for creativity in these unprecedented times by creating a short, innovative video showcasing dance, music, theatre, or visual arts and you could win $500 in cash!</p>
+				
+				<h2>requirements:</h2>
+<span class="ListNumber">1:</span> <p>Produce a video highlighting how you (or you and your fellow virtual collaborators) create dance, music, theatre, or visual arts content without meeting up (please maintain rules of social distancing during this time – stay healthy!). 
+A link to your video must be submitted to one of the College of the Arts Social Media Accounts (Facebook, Instagram, or Twitter) </p>
+			
+<span class="ListNumber">2:</span> <p>Video content may not exceed 1 minute (60 seconds) in length. </p>
+<span class="ListNumber">3: </span> <p>Videos must be submitted by 11:59 PM on Sunday, April 19, 2020. The winner will be announced on Friday, April 24. If you post your video on social media, be sure to tag the College of the Arts or use the #ArtTogetherNow hashtag! #csufcota @csufcota</P>
+			
+			
+			<h2>Process</h2>
+
+<h3>1: Determine the purpose of project 03 and the audience. </h3>
+<p>The target audience is everyone and the anxieties we are dealing with during this troubling time. The graphics are not only to shed some light on the coronavirus but also what we can do to fill the time while in quarantine. </p>
+
+
+<h3>2: Type used for video</h3>
+	<p>
+	<img src="images/typeface.png" width="50%" alt=""/>
+		</p>
+	
+
+<h3>3: Music used for video</h3>
+<p>Have you heard- potsu </p>
+<p><video width="500" height="50" controls>	
+ <source src="mp4/have you heard.mp3" type="video/mp4">	</p>
+
+<h3>4: Paper based storyboard</h3>
+<p><img src="images/storyboard.jpg" width="80%" alt=""/>	
+	
+	</p>
+	
+<h3>5: Character/ Background </h3>	
+<img src="images/question.png" width="20%" alt=""/>	
+<p>	
+<img src="images/background.png" width="50%" alt=""/> 
+	</p>
+			
+		  </div>
+			<div class="PdfLink">
+		<a href="mp4/ArtTogetherNowFinal.mp4">Check out my video here</a>
+		</div>
+			
+</main>
+<footer> © Miranda Dietrich Designs 2020
+  </footer>
+    </div>
+</body>
+</html>
