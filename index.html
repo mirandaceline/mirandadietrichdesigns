@@ -18,26 +18,29 @@ html {
 .Wrapper {
     height: auto;
     width: 1240px;
-}
-.Wrapper nav a {
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    display: inline-block;
-    text-align: center;
-    margin-right: -71px;
-    padding-right: 104px;
-    padding-left: 0px;
-}
-.Wrapper img {
-    position: absolute;
-    left: 252px;
-    top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    position: relative;
 }
 .body img {
     margin-top: 0px;
-    position: absolute;
-    left: 202px;
+    position: relative;
+    left: auto;
     top: 202px;
     margin-bottom: 106px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+    padding-right: auto;
+    padding-left: auto;
+}
+.quote img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 8%;
 }
 .back {
     position: absolute;
@@ -134,6 +137,14 @@ html {
     left: 599px;
     top: 2307px;
 }
+.nav  {
+    float: right;
+    margin-right: 0px;
+}
+.logo img {
+    margin-left: 20%;
+    margin-top: 6%;
+}
 </style>
 </head>
 
@@ -141,10 +152,10 @@ html {
 <div class="Wrapper">
 
  
-</div>
-<span class="Wrapper"><img src="images/mirandaicon.png" width="150" height=""/></span>
 
-<div class="body"><img src="images/imagequote.png" width="800" height="" alt=""/></div>
+<div class="logo"><img src="images/mirandaicon.png" width="150" height=""/></div>
+
+<div class="quote"><img src="images/imagequote.png" width="800" height="auto"></div>
 
 <div class="back"><img src="images/backgroundone.png" width="1240" height="" alt=""/></div>
 	
@@ -153,7 +164,7 @@ html {
 <div class="designphil"><img src="images/designphil.png" width="700" height="" alt=""/> </div>
 	
 <div class="blue"><img src="images/blue.png" width="1240" height="" alt=""/></div>
-	
+
 <div class="icon"><a href="project01/project01.html"><img src="images/iconhtml.png" width="100" height="" alt=""/></a></div>
 	
 <div class="iconn"><a href="project02/project02.html"><img src="images/cssicon.png" width="80" height="" alt=""/></a></div>
@@ -161,6 +172,7 @@ html {
 <div class="iconnn"><a href="project03/project03.html"><img src="images/dataicon.png" width="60" height="" alt=""/></a></div>
 	
 <div class="iconnnn"><a href="project04/project04.html"><img src="images/uxicon.png" width="80" height="" alt=""/></a></div>
+	
 	
 <div class="home"><a href="project01/project01.html"><img src="images/proj1.png" width="80" height="" alt=""/></a></div>
 	
@@ -184,5 +196,6 @@ html {
 <div class="insta"><a href="https://www.instagram.com/miranda.dietrich/"><img src="images/instagramicon.png" width="50" height="" alt=""/></a><a href="https://www.instagram.com/miranda.dietrich/"></a></div>
 	
 <div class="txt"><img src="images/footertxt.png" width="250" height="" alt=""/></div>
+	</div>
 </body>
 </html>
